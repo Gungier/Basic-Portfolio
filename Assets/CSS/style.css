@@ -1,8 +1,103 @@
 /* this is to write notes in css */ 
 
-#bio-pic {
+header {
+  padding: 20px;
+  font-family: Georgia, Times, 'Times New Roman', sans-serif;
+  margin-bottom: 20px;
+  color: #0a6b46;
+  background: #ffffff;
+  border-color: #cccccc;
+  width: 960px;
+
+}
+
+    .navbar {
+      padding: 20px;
+      font-family: Georgia, 'Times New Roman', Times, sans-serif;
+      margin-bottom: 20px; 
+      color: #fff;
+      }
+    
+
+    .Links {
+      float: right;
+      padding: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    .name {
+    float: left;
+    padding: 20px;
+    color: white;
+    font-size: 36px;
+    background: #4aaaa5;
+    text-align: center;
+    }
+    #bio-pic {
     height: 15%;
     width: 15%;
     float: left;
     padding: 20px;
 }
+
+ .bio_box {
+    width: 100%;
+    background-image: url("assets/images/white-waves.png");
+    background-repeat: repeat;
+   }
+  
+   #me {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    color: #4aaaa5;
+    padding: 20px 20px 20px 0;
+    border-bottom: solid;
+    border-bottom-color: #777777;
+    }
+
+    #MyName {
+        float: left;
+        padding: 15px;
+        color: black;
+        background:  #ffff;
+        border-color: #cccc;
+    }
+    
+  .container {
+    float: left;
+    width: 960px;
+    background: #ffffff;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777777;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #4aaaa5;
+    }
+    
+  
+    
+  #Main {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777777;
+    }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    height: 50px;
+    background: #666666;
+    width: 960px;
+    margin: 0 0 0 20px;
+    }
+  
+    
