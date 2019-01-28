@@ -88,13 +88,14 @@ header {
   .pic_name {
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
     float: left;
-    padding: 20px;
+    padding: 10px 15px 10px 15px;
     font-size: 16px;
-    width: 200px;
+    text-align: center;
+    width: 175px;
     color: #e0e4e7; 
     background: #3432ce;
     position: absolute;
-    bottom: 17px;
+    bottom: 1px;
     
   }
     
