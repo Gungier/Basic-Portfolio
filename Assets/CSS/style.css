@@ -16,7 +16,12 @@ header {
   text-align: center;
 
 }
-
+.clearfix::after {
+  content:"";
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
     .navbar {
       padding: 20px;
       font-family: Georgia, 'Times New Roman', Times, sans-serif;
@@ -104,6 +109,7 @@ header {
     padding: 0 20px 10px 0;
     height: 150px;
     width: 225px;
+    overflow: hidden;
     position: relative;
     box-sizing: border-box;
     display: block;
@@ -114,8 +120,18 @@ header {
     height: 150px;
     width: 225px;
     position: relative;
+    overflow: hidden;
   }
   
+  .contact {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  .input {
+    width: 100%;
+    
+  }
+
   .footer {
     position: fixed;
     left: 0;
